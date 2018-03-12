@@ -1,0 +1,21 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        //opdracht 2.1
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Typ het aantal mijlen: ");
+        double userInput = scanner.nextDouble();
+        double kilometers = userInput * 1.6;
+        System.out.println(userInput + " mijlen is " + kilometers + " kilometers.");
+
+        //opdracht 2.2
+
+
+    }
+}
